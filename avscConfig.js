@@ -815,4 +815,3 @@ const actionToType = {
     "breakEntityAction": 47,
     "LENGTH": 48
   };
-window.actionToType = actionToType;
