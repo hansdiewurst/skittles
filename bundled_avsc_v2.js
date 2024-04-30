@@ -39939,7 +39939,8 @@ module.exports = {
   combine: types.Type.forTypes,
   infer: types.Type.forValue
 };
-console.log("TYPES:",types)
+console.log("TYPES:",types);
+window.types = types;
 
 },{"../../lib/types":236}],231:[function(require,module,exports){
 /* jshint browser: true, node: true */
