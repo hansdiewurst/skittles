@@ -1,4 +1,3 @@
-//M R T d
 const types = {
     0: avsc.Type.forSchema({
         name: 'confirmTeleport',
