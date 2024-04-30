@@ -1,3 +1,4 @@
+//M R T d
 const types = {
     0: avsc.Type.forSchema({
         name: 'confirmTeleport',
@@ -769,4 +770,49 @@ const types = {
             }
         ]
     })
-}
+};
+
+const actionToType = {
+    "confirmTeleport": 0,
+    "touchscreenActionButtonPress": 1,
+    "finishChargingHeldItem": 3,
+    "move": 4,
+    "chat": 5,
+    "keydown": 6,
+    "ping": 7,
+    "keyup": 8,
+    "changeBlock": 9,
+    "dropItem": 10,
+    "moveItemIntoIdxs": 11,
+    "updateMyCosmetic": 12,
+    "swapInvenSlots": 13,
+    "moveInvenItemWithAmt": 14,
+    "needChunk": 15,
+    "itemPickedUp": 17,
+    "completeTask": 18,
+    "generalCookieSet": 19,
+    "phys": 20,
+    "newSelectedInventorySlotI": 21,
+    "shot": 22,
+    "craftItem": 26,
+    "altAction": 28,
+    "chestConf": 29,
+    "altActionWater": 30,
+    "putdownBucket": 31,
+    "hitEntity": 33,
+    "xclick": 34,
+    "ingameClick": 35,
+    "subTick": 36,
+    "UiRequestResp": 37,
+    "updateBoard": 38,
+    "keepAlive": 39,
+    "updateBook": 41,
+    "removeItemFromInven": 42,
+    "userReport": 43,
+    "ignoreUser": 44,
+    "harvestToBowl": 45,
+    "reqDiscordReportKey": 46,
+    "breakEntityAction": 47,
+    "LENGTH": 48
+  };
+window.actionToType = actionToType;
