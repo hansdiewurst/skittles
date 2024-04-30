@@ -39940,7 +39940,8 @@ module.exports = {
   infer: types.Type.forValue
 };
 console.log("TYPES:",types);
-window.types = types;
+//idk if thats correct tbh lol
+window.avsc = types;
 
 },{"../../lib/types":236}],231:[function(require,module,exports){
 /* jshint browser: true, node: true */
