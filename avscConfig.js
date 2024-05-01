@@ -1,4 +1,3 @@
-//M R T d
 const types = {
     0: avsc.Type.forSchema({
         name: 'confirmTeleport',
@@ -815,3 +814,4 @@ const actionToType = {
     "breakEntityAction": 47,
     "LENGTH": 48
   };
+window.actionToType = actionToType;
