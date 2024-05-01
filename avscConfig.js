@@ -814,7 +814,3 @@ const actionToType = {
     "breakEntityAction": 47,
     "LENGTH": 48
   };
-(function(){
-    window.actionToType = actionToType;
-    console.log("asdhgiopsdkfjwsdlfumsofnkjnkjnsakjao");
-}());
