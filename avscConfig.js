@@ -814,3 +814,6 @@ const actionToType = {
     "breakEntityAction": 47,
     "LENGTH": 48
   };
+
+exports.types = types;
+exports.actionToType = actionToType;
