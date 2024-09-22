@@ -1,7 +1,6 @@
-const defaultLog = console.log;
+const log = console.log;
 
-const log = function(...args){
-  args.splice(0,0,"[client]")
-  DefaultLog.apply(this,args);
+console.log = function(...args){
+  args.unshift("[client]")
+	return log.apply(this, args)
 }
-window.log = log;
